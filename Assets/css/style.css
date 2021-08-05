@@ -1,0 +1,53 @@
+.page-title{
+    text-align: center;
+    margin: auto;
+}
+.page-content{
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 50px;
+}
+
+:root {
+    --primary: #44e9ff;
+    --secondary: #497980;
+    --tertiary: rgb(192, 246, 253);
+    --grey: #333;
+    font-size: 100%;
+}
+.inline{
+    display: inline;
+    margin: auto;
+    text-align: center;
+}
+.header{
+    position: relative;
+    margin: auto;
+}
+.right{
+    position: absolute;
+    display: inline;
+    top: 0px;
+    right: 30px;
+}
+.left{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    display: inline;
+}
+.bottomleft{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: inline;
+}
+body {
+    background: #ededed;
+    color: var(--grey);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }

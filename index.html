@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz assessor</title>
+  <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<section id='content'></section>
+
+<body>
+    <header class="header">
+            <a href="highscores.html"left">view high scores </a>
+            <h1 class="page-title"> Quiz Assessor </h1>
+            <p class="right" id='timer'> time left:</p>
+    </header>
+    <section id="quizStart" class="page-title">
+        <h3>Welcome to the Quiz Assessor!</h3>
+        <P>Please click the button below to begin!</P>
+        <button id="quizBeginButton">Begin Quiz</button>
+    </section>
+    <section id="quiz" class="page-title">
+        <h3 id="nameOfQuestion"></h3>
+        <section id="buttons"></section>
+        <p id="validateAnswer"></p>
+    </section>
+    <section class="page-title">
+        <h3 id="scoreTitle"></h3>
+        <p id="scoreIs"></p>
+        <form id="scoreForm"></section>
+        
+    </section>
+    <footer class="bottomleft">
+        &copy;2020 by QuizAssessor
+    </footer>
+
+    <script src="./Assets/Scripts/script.js"></script>
+</body>
